@@ -1,15 +1,27 @@
 import { defineField, defineType } from 'sanity'
 
-export const venueType= defineType({
+export const venue = defineType({
+  type: "document",
   name: "venue",
   title: "Venue",
-  type: "document",
   fields: [
     defineField({
       type: "string",
       name: "name",
-    })],
+    }),
+    defineField({
+      type: "string",
+      name: "city",
+    }),
+    defineField({
+      type: "string",
+      name: "country",
+    }),
+  ],
 });
+
+
+
 
 
 
