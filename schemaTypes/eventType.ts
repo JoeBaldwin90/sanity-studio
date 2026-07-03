@@ -4,7 +4,7 @@ export const eventType = defineType({
   name: "event",
   title: "Event",
   type: "document",
-  groups: [
+  groups: [  //  Define groups for the event schema
     { name: "details", title: "Details" },
     { name: "editorial", title: "Editorial" },
   ],
@@ -77,7 +77,7 @@ export const eventType = defineType({
     defineField({
       type: "url",
       name: "tickets",
-      group: "details",
+      group: ['details', 'editorial'], // Allow the tickets field to be displayed in both the details and editorial groups
     })
   ],
 });
