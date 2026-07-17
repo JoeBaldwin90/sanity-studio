@@ -2,6 +2,7 @@
   "name": "day-one-content-operations",
   "private": true,
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "Day One Content Operations",
   "scripts": {
     "dev": "pnpm run --parallel dev",
@@ -10,5 +11,39 @@
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=10.0.0"
+=======
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy",
+    "dev": "sanity dev",
+    "start": "sanity start"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/icons": "^4.1.0",
+    "@sanity/vision": "^6.3.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sanity": "^6.3.0",
+    "styled-components": "^6.1.18"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^6.0.0",
+    "@types/react": "^19.2.14",
+    "eslint": "^9.28",
+    "prettier": "^3.5",
+    "typescript": "^5.8"
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true
+>>>>>>> 38f5235aa364aa2523447dbbad9d911b1567aa1a
   }
 }

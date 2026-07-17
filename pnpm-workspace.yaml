@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 packages:
   - "apps/*"
 allowBuilds:
   esbuild: false
+=======
+allowBuilds:
+  esbuild: true
+>>>>>>> 38f5235aa364aa2523447dbbad9d911b1567aa1a
